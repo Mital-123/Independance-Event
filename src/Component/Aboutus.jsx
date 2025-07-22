@@ -55,10 +55,10 @@ function Aboutus() {
                             personnel who have made the ultimate sacrifice
                         </div>
                         <div className='row mt-2 justify-content-center'>
-                            <div className='col-12 col-lg-4 p-3'>
+                            <div className='col-12 col-lg-5 p-3'>
                                 <div className='h-100'>
                                     <div style={{ border: "5px ridge white" }} className='p-2 rounded-3'>
-                                        <img src={require("../assets/images/1V9A6927.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
+                                        <img src={require("../assets/images/WhatsApp Image 2025-07-22 at 16.01.03_7d330649.jpg")} className='img-fluid w-100 h-100 rounded-3' alt="" />
                                     </div>
                                 </div>
                             </div>

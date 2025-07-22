@@ -5,6 +5,7 @@ import Footer from './Footer.jsx'
 import Sponser from './Sponser.jsx'
 import Photos from './Photos.jsx'
 import Aboutus from './Aboutus.jsx'
+import EventHost from './EventHost.jsx'
 
 function HomeCarousel() {
     return (
@@ -31,7 +32,8 @@ function HomeCarousel() {
             </div>
 
             <Host />
-            <Aboutus/>
+            <EventHost />
+            <Aboutus />
             <Photos />
             <TicketsCard />
             <Sponser />

@@ -19,7 +19,7 @@ const Photos = () => {
             <div className="darkviolet py-5 photos_bg">
                 <div className="container">
                     <h2
-                        className="ftittle fw-bold m-0 p-0 text-capitalize text-center mb-4 main-title"
+                        className="ftittle fw-medium m-0 p-0 text-capitalize text-center mb-4 main-title"
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-once="true"
@@ -40,4 +40,4 @@ const Photos = () => {
     );
 };
 
-export default Photos;
+export default Photos

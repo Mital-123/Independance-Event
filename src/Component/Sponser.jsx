@@ -29,7 +29,7 @@ function Sponser() {
                 </div> */}
 
                 <h2
-                  className="ftittle fw-bold m-0 p-0 text-capitalize main-title"
+                  className="ftittle m-0 p-0 text-capitalize main-title"
                   data-aos="fade-down"
                   data-aos-duration="1500"
                   data-aos-once="true"
@@ -51,6 +51,19 @@ function Sponser() {
               <div className="certificate-item h-100 d-flex align-items-center"  >
                 <img
                   src="https://baprerna.com/_next/image?url=%2Fassets%2Ffavicon.png&w=384&q=75"
+                  alt="BRC Logo"
+                  className="img-fluid"
+                />
+                <div className="certificate-glow"></div>
+              </div>
+            </div>
+
+            <div data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true">
+              <div className="certificate-item h-100 d-flex align-items-center"  >
+                <img
+                  src={require("../assets/images/WhatsApp Image 2025-07-22 at 16.03.34_259c768c.jpg")}
                   alt="BRC Logo"
                   className="img-fluid"
                 />
@@ -86,6 +99,20 @@ function Sponser() {
               </div>
             </div>
 
+            <div data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-delay="500"
+              data-aos-once="true">
+              <div className="certificate-item h-100 d-flex align-items-center"   >
+                <img
+                  src={require("../assets/images/Screenshot_22-7-2025_153612_.jpeg")}
+                  alt="Halal Logo"
+                  className="img-fluid"
+                />
+                <div className="certificate-glow"></div>
+              </div>
+            </div>
+
 
           </div>
         </div>
@@ -94,4 +121,4 @@ function Sponser() {
   );
 }
 
-export default Sponser;
+export default Sponser

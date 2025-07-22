@@ -124,19 +124,12 @@
 }
 
 .gradient-text {
-  font-size: 25px;
+  font-size: 17px;
   font-family: "Anton", sans-serif;
   letter-spacing: 3px;
   text-transform: capitalize;
-  font-weight: bold;
   color: green;
   text-shadow: 4px 4px 0 #ffffffbd;
-}
-
-@media (max-width: 576px) {
-  .gradient-text {
-    font-size: 20px;
-  }
 }
 .brdstart {
   position: relative;
@@ -159,15 +152,12 @@
 }
 
 .main-title {
-  font-weight: bold;
   letter-spacing: 2px;
   font-size: 25px;
-  background: linear-gradient(to right, orange, green);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
   font-family: "Anton", sans-serif;
   text-shadow: none;
-  /* text-shadow: 6px 7px 10px rgba(0, 0, 0, 0.438); */
+  text-shadow: 6px 7px 10px rgba(0, 0, 0, 0.438);
 }
 
 .text-orange {

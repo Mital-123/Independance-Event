@@ -50,16 +50,16 @@ const Host = () => {
       <div className="container ">
 
         <div className=" header-section">
-          {/* <div className="text-center mx-auto venue-card" style={{ maxWidth: "800px" }}>
+          <div className="text-center mx-auto venue-card" style={{ maxWidth: "800px" }}>
             <span className="gradient-text">Celebrate Independence Day with </span>
             <div className="gradient-text">"Social Army Trust" through an engaging live panel discussion.</div>
-          </div> */}
-          <div className="brdstart-wrapper d-flex">
+          </div>
+          {/* <div className="brdstart-wrapper d-flex">
             <div className="brdstart text-start text-capitalize">
               <div className="gradient-text">Celebrate Independence Day with "Social Army Trust"</div>
               <div className="gradient-text">through an engaging live panel discussion.</div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="row align-items-center mt-4">
@@ -179,8 +179,11 @@ const Host = () => {
 
         <div className="text-center header-section mt-4">
           <div className="brdstart-wrapper d-flex justify-content-center align-items-center">
-            <div className="brdstart gradient-text text-start text-capitalize">
+            {/* <div className="brdstart gradient-text text-start text-capitalize">
               Suro Mein Bharat – The Live In Concert
+            </div> */}
+            <div className="text-center mx-auto venue-card" style={{ maxWidth: "800px" }}>
+              <span className="gradient-text">Suro Mein Bharat – The Live In Concert</span>
             </div>
           </div>
         </div>
