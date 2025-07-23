@@ -22,16 +22,16 @@ const Datalist = () => {
     }, []);
     const formatDateTime = (isoString) => {
         const date = new Date(isoString);
-        
+
         // Format date as dd/mm/yy
         const formattedDate = `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${String(date.getFullYear()).slice(-2)}`;
-        
+
         // Format time in HH:MM:SS AM/PM
         const formattedTime = date.toLocaleTimeString();
-    
+
         return { formattedDate, formattedTime };
     };
-  
+
     const handleDownload = () => {
         if (data.length === 0) return;
 
@@ -115,7 +115,7 @@ const Datalist = () => {
                                 })
                             ) : (
                                 <tr>
-                                    <td colSpan="7" className="text-center">No data available</td>
+                                    <td colSpan="12" className="text-center">No Data Available.</td>
                                 </tr>
                             )}
                         </tbody>
