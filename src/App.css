@@ -71,23 +71,23 @@ button:hover::before {
 /* buttonhover end */
 /* Homecarousel start */
 .carobgimg {
-  background-image: url("./assets/images/9.jpg");
+  background-image: url("./assets/images/TOKR9743_resize.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  box-shadow: inset 0px 0px 0px 1500px rgba(0, 0, 0, 0.788);
+  box-shadow: inset 0px 0px 0px 1500px rgba(0, 0, 0, 0.858);
 }
 .homepage_image {
   height: auto !important;
 }
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .homepage_image {
-    height: 240px !important;
+    height: 210px !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .homepage_image {
-    height: 180px !important;
+    height: 160px !important;
   }
 }
 /* .tricolor-text {
@@ -477,7 +477,8 @@ button:hover::before {
 .certificate-item {
   width: 200px;
   max-width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  min-height: 130px; /* Set consistent height */
+  background: rgba(255, 255, 255, 1); /* Solid white background */
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 37, 37, 0.1);
   border-radius: 20px;
@@ -487,8 +488,14 @@ button:hover::before {
   transition: all 0.4s ease;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.certificate-item img {
+  max-height: 100px;
+  object-fit: contain;
+}
 .certificate-item:hover {
   transform: translateY(-10px);
   background: rgba(255, 255, 255, 1);
