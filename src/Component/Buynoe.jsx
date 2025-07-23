@@ -15,7 +15,6 @@ function Buynow() {
         setobj(prev => ({ ...prev, [name]: value }));
         seterrormsg(prev => ({ ...prev, [name]: "" }));
 
-        // Optional live validation (can be removed)
         if (name === "name") {
             if (!value.trim()) {
                 seterrormsg(prev => ({ ...prev, name: "Name is required!" }));
@@ -24,13 +23,13 @@ function Buynow() {
             }
         }
 
-        if (name === "email") {
-            if (!value.trim()) {
-                seterrormsg(prev => ({ ...prev, email: "E-mail is required!" }));
-            } else if (!/^[a-zA-Z0-9._%+-]+@(gmail|yahoo|outlook|icloud|hotmail)\.com$/.test(value)) {
-                seterrormsg(prev => ({ ...prev, email: "E-mail is not valid." }));
-            }
-        }
+        // if (name === "email") {
+        //     if (!value.trim()) {
+        //         seterrormsg(prev => ({ ...prev, email: "E-mail is required!" }));
+        //     } else if (!/^[a-zA-Z0-9._%+-]+@(gmail|yahoo|outlook|icloud|hotmail)\.com$/.test(value)) {
+        //         seterrormsg(prev => ({ ...prev, email: "E-mail is not valid." }));
+        //     }
+        // }
 
         if (name === "phnumber") {
             if (!value.trim()) {
@@ -60,9 +59,9 @@ function Buynow() {
             newErrorMsg.name = "Name is required!";
         }
 
-        if (!obj.email || obj.email.trim() === "") {
-            newErrorMsg.email = "E-mail is required!";
-        }
+        // if (!obj.email || obj.email.trim() === "") {
+        //     newErrorMsg.email = "E-mail is required!";
+        // }
 
         if (!obj.phnumber || obj.phnumber.trim() === "") {
             newErrorMsg.phnumber = "Phone Number is required!";
@@ -79,7 +78,12 @@ function Buynow() {
         seterrormsg(newErrorMsg);
 
         if (Object.keys(newErrorMsg).length === 0) {
-            axios.post("https://geeta-backend.vercel.app/", obj)
+            const cleanObj = { ...obj };
+            if (!cleanObj.email || cleanObj.email.trim() === "") {
+                delete cleanObj.email;
+            }
+
+            axios.post("https://geeta-backend.vercel.app/", cleanObj)
                 .then((res) => {
                     if (res.data && res.data._id) {
                         setSavedId(res.data._id);
@@ -87,7 +91,7 @@ function Buynow() {
                     }
                 })
                 .catch(() => {
-                    alert("Phone number or email is already in use.");
+                    alert("Phone number is already in use.");
                 });
         }
     };
@@ -120,7 +124,7 @@ function Buynow() {
                                         <div><span className="fw-bold ">Venue :</span> Sampada Festivity, Kosmada Ring Road, Surat.</div>
                                     </div>
                                     <div className="w-100 h-100">
-                                        <img src={require("../assets/images/independance_poster_logo.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
+                                        <img src={require("../assets/images/Screenshot 2025-07-23 182105.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
                                     </div>
                                     <div className="my-3">
                                         <div className="fw-bold ">Contact Us :</div>
