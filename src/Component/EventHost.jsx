@@ -16,12 +16,12 @@ function EventHost() {
                         data-aos-duration="1500"
                         data-aos-once="true"
                     >
-                        Hosted by Gopal Dave with pride and passion!
+                        Anchoring the event with passion – Gopal Dave!
                     </h2>
                     <div className='row justify-content-center mt-4'>
-                        <div className='col-12 col-lg-5'>
+                        <div className='col-12 col-lg-4'>
                             <div style={{ border: "5px ridge black" }} className='p-2 rounded-3'>
-                                <img src={require("../assets/images/gopal dave.jpeg")} className='img-fluid w-100 h-100' alt="" />
+                                <img src={require("../assets/images/WhatsApp Image 2025-07-22 at 17.05.17_71fa5d08.jpg")} className='img-fluid w-100 h-100' alt="" />
                             </div>
                         </div>
                     </div>
