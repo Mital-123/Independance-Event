@@ -15,6 +15,7 @@ function EventHost() {
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-once="true"
+                        style={{color:"green"}}
                     >
                         Anchoring the event with passion – Gopal Dave!
                     </h2>

@@ -50,9 +50,9 @@ function Aboutus() {
                             </div>
                         </div> */}
 
-                        <div className="main-title text-capitalize mx-auto text-center text-white">
-                            Supporting the kin of Indian Armed Forces <br />
-                            personnel who have made the ultimate sacrifice
+                        <div className="main-title gradient-text_about text-capitalize mx-auto text-center">
+                            "Supporting the kin of Indian Armed Forces <br />
+                            personnel who have made the ultimate sacrifice"
                         </div>
                         <div className='row mt-2 justify-content-center'>
                             <div className='col-12 col-lg-5 p-3'>

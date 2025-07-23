@@ -9,14 +9,15 @@
 .pera {
   font-size: 14px !important;
 }
+
 /* buttonhover start */
 /* From Uiverse.io by aboalsim114 */
 button {
-  padding: 0.8em 1.8em;
+  padding: 10px 18px !important;
   border: 2px solid #fff;
   position: relative;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #388e3c !important;
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
@@ -71,11 +72,11 @@ button:hover::before {
 /* buttonhover end */
 /* Homecarousel start */
 .carobgimg {
-  background-image: url("./assets/images/TOKR9743_resize.jpg");
+  background-image: url("./assets/images/1B7A7946.378929ba45b5c67994df_resize.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  box-shadow: inset 0px 0px 0px 1500px rgba(0, 0, 0, 0.858);
+  box-shadow: inset 0px 0px 0px 1500px rgba(0, 0, 0, 0.785);
 }
 .homepage_image {
   height: auto !important;

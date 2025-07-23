@@ -19,12 +19,12 @@ const Photos = () => {
             <div className="darkviolet py-5 photos_bg">
                 <div className="container">
                     <h2
-                        className="ftittle fw-medium m-0 p-0 text-capitalize text-center mb-4 main-title"
+                        className="ftittle fw-medium m-0 p-0 text-capitalize text-center mb-4 main-title" style={{ color: "#5C3A21" }}
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-once="true"
                     >
-                        We Celebrated Our Glorious Past With Pride
+                        "We Celebrated Our Glorious Past With Pride"
                     </h2>
                     <div className="containerimg mx-auto">
                         {images.map((image, index) => (

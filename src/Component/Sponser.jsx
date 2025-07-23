@@ -24,16 +24,15 @@ function Sponser() {
           <div className="col-lg-8 text-center">
             <div className="header-content">
               <h2
-                className="ftittle m-0 p-0 text-capitalize main-title"
+                className="ftittle m-0 p-0 text-capitalize main-title sponser_underline"
                 data-aos="fade-down"
                 data-aos-duration="1500"
                 data-aos-once="true"
               >
                 Our Supporters
               </h2>
-              <p className="pera pt-2">
-                Join forces with us to make this event a success and enhance your company's social responsibility efforts and marketing strategy with Social Army.
-              </p>
+              <p className="pera pt-3">
+                "Join forces with us to make this event a success and enhance your company's social responsibility efforts and marketing strategy with Social Army."              </p>
             </div>
           </div>
         </div>

@@ -50,9 +50,13 @@ const Host = () => {
       <div className="container ">
 
         <div className=" header-section">
-          <div className="text-center mx-auto venue-card" style={{ maxWidth: "800px" }}>
-            <span className="gradient-text">Celebrate Independence Day with </span>
-            <div className="gradient-text">"Social Army Trust" through an engaging live panel discussion.</div>
+          <div className="text-center mx-auto" style={{ maxWidth: "800px" }}>
+            <span className="gradient-text">
+              "Celebrate Independence Day with
+            </span>
+            <div className="gradient-text">
+              'Social Army Trust' through an engaging live panel discussion."
+            </div>
           </div>
           {/* <div className="brdstart-wrapper d-flex">
             <div className="brdstart text-start text-capitalize">
@@ -182,8 +186,10 @@ const Host = () => {
             {/* <div className="brdstart gradient-text text-start text-capitalize">
               Suro Mein Bharat – The Live In Concert
             </div> */}
-            <div className="text-center mx-auto venue-card" style={{ maxWidth: "800px" }}>
-              <span className="gradient-text">Suro Mein Bharat – The Live In Concert</span>
+            <div className="text-center mx-auto" style={{ maxWidth: "800px" }}>
+              <span className="gradient-text" style={{marginLeft:"-100px"}}>"Suro Mein Bharat –
+                <div className="gradient-text ms-5 ps-5">The Live In Concert"</div>
+              </span>
             </div>
           </div>
         </div>

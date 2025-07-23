@@ -25,7 +25,7 @@ function HomeCarousel() {
                             </div>
                         </div>
                         <div className='col-md-6 col-11 mx-auto animate__animated animate__bounceInRight animate__slower text-center' style={{ marginTop: 'auto' }}>
-                            <img src={require('../assets/images/Untitled_design__1_-removebg-preview.png')} alt="" className='img-fluid homepage_image' />
+                            <img src={require('../assets/images/Untitled_design__3_-removebg-preview.png')} alt="" className='img-fluid homepage_image' />
                         </div>
                     </div>
                 </div>

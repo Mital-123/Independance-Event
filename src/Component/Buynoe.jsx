@@ -99,18 +99,18 @@ function Buynow() {
                     <div className="container py-4">
                         <div className="row d-flex justify-content-center align-items-center">
                             {/* Left Content */}
-                            <div className="d-flex gap-2 align-items-center px-4 px-lg-5 pb-3">
-                                <div className="rounded-circle" style={{ width: "90px", height: "auto" }}>
-                                    <img src={require('../assets/images/2.png')} className="img-fluid object-fit-cover rounded-circle" alt="" />
-                                </div>
-                                <div className="title fs-4 fw-bold">Social Army Trust</div>
-                            </div>
-                            <div className="col-12 col-lg-6 order-2 order-lg-1 px-4 px-lg-5 pb-4">
+                            <div className="col-12 col-lg-6 p-4 p-lg-5">
                                 <div className="h-100">
+                                    <div className="row gap-2 align-items-center">
+                                        <div className="rounded-circle col-3">
+                                            <img src={require('../assets/images/2.png')} className="img-fluid object-fit-cover rounded-circle" alt="" />
+                                        </div>
+                                        <div className="title fs-4 ps-1 col-8 fw-bold">Social Army Trust</div>
+                                    </div>
                                     {/* <div className="title fs-3 mt-3 mb-2 main-title">
                                         Independence Day Event <span>In Surat</span>
                                     </div> */}
-                                    <div className="title fs-3 mt-3 mb-2 main-title">
+                                    <div className="title fs-3 mt-3 mb-2 gradient-text">
                                         आज़ादी का रंग, फौजी के संग 2.0
                                     </div>
                                     <div className="rounded" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
@@ -135,10 +135,10 @@ function Buynow() {
                             </div>
 
                             {/* Right Form */}
-                            <div className="col-12 col-lg-6 order-1 order-lg-2 px-2 pb-4">
+                            <div className="col-12 col-lg-6 px-2 pb-4 p-lg-5">
                                 <div className="h-100">
                                     <div className="bg-white shadow p-4">
-                                        <div className="title fs-5"><span className="main-title" style={{ fontSize: "17px" }}>आज़ादी का रंग, फौजी के संग 2.0 – Registration Form</span> 🧡🤍💚
+                                        <div className="title fs-5"><span className="gradient-text" style={{ fontSize: "17px" }}>आज़ादी का रंग, फौजी के संग 2.0 – Registration Form</span> 🧡🤍💚
                                         </div>
                                         <div className="rounded mt-2" style={{ width: "50px", border: "3px solid var(--orange)" }}></div>
 
