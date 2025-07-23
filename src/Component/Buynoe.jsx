@@ -155,7 +155,7 @@ function Buynow() {
                                         <div className="w-100 my-4">
                                             <label htmlFor="email" className="w-25">Email</label>
                                             <input type="text" className="w-75 input_form rounded border border-1 border-secondary px-2 py-1" name="email" value={obj.email || ""} onChange={getdata} id="email" />
-                                            <div className='text-danger w-75 ms-auto'>{errormsg.email}</div>
+                                            {/* <div className='text-danger w-75 ms-auto'>{errormsg.email}</div> */}
                                         </div>
 
                                         <div className="w-100">
