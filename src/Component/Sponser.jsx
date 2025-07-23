@@ -68,7 +68,7 @@ function Sponser() {
           <div className="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
             <div className="certificate-item h-100 d-flex align-items-center justify-content-center">
               <img
-                src={require("../assets/images/images-removebg-preview.png")}
+                src={require("../assets/images/sampada logo.png")}
                 alt="Sponsor 3"
                 className="img-fluid"
               />
@@ -80,7 +80,7 @@ function Sponser() {
           <div className="col-6 col-md-4 col-lg-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
             <div className="certificate-item h-100 d-flex align-items-center justify-content-center">
               <img
-                src={require("../assets/images/images__1___1_-removebg-preview.png")}
+                src={require("../assets/images/city tadka logo.png")}
                 alt="Sponsor 4"
                 className="img-fluid"
               />

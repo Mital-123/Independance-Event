@@ -82,12 +82,12 @@ button:hover::before {
 }
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .homepage_image {
-    height: 300px !important;
+    height: 240px !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .homepage_image {
-    height: 270px !important;
+    height: 180px !important;
   }
 }
 /* .tricolor-text {
@@ -121,7 +121,7 @@ button:hover::before {
 /* Homecarousel end */
 /* about us start */
 .clientmain_bg {
-  background-image: url("./assets/images/TOKR9718.jpg");
+  background-image: url("./assets/images/TOKR9718_resize.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
