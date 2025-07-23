@@ -13,7 +13,8 @@ function TicketsCard() {
                                 <div
                                     className="text-center rounded p-3 py-4 text-white"
                                     style={{
-                                        background: 'linear-gradient(to right, #ff9800, #fdd835, #388e3c)',
+                                        background:"#ff993381"
+                                        // background: 'linear-gradient(to right, #ff9800, #fdd835, #388e3c)',
                                     }}
                                 >
                                     <div className="fw-bold display-6 text-dark">Token Amount</div>

@@ -17,7 +17,7 @@ button {
   border: 2px solid #fff;
   position: relative;
   overflow: hidden;
-  background-color: #388e3c !important;
+  background-color: #388e3ca3 !important;
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
