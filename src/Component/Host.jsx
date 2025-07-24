@@ -51,10 +51,10 @@ const Host = () => {
 
         <div className=" header-section">
           <div className="text-center mx-auto" style={{ maxWidth: "800px" }}>
-            <span className="gradient-text">
+            <span className="gradient-text_host">
               "Celebrate Independence Day with
             </span>
-            <div className="gradient-text">
+            <div className="gradient-text_host">
               'Social Army Trust' through an engaging live panel discussion."
             </div>
           </div>
@@ -187,7 +187,7 @@ const Host = () => {
               Suro Mein Bharat – The Live In Concert
             </div> */}
             <div className="text-center mx-auto" style={{ maxWidth: "800px" }}>
-              <span className="gradient-text" style={{marginLeft:"-100px"}}>"Suro Mein Bharat –
+              <span className="gradient-text" style={{ marginLeft: "-100px" }}>"Suro Mein Bharat –
                 <div className="gradient-text ms-5 ps-5">The Live In Concert"</div>
               </span>
             </div>

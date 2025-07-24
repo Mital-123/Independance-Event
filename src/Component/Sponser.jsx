@@ -32,7 +32,7 @@ function Sponser() {
                 Our Supporters
               </h2>
               <p className="pera pt-3">
-                "Join forces with us to make this event a success and enhance your company's social responsibility efforts and marketing strategy with Social Army."              </p>
+                "Thank you to our incredible supporters and partners for supporting 'Azadi Ka Rang, Fauji Sang 2.0' by Social Army. Your support drives this patriotic initiative forward while reflecting your commitment to social responsibility."</p>
             </div>
           </div>
         </div>
