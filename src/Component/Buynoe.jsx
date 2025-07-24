@@ -121,7 +121,7 @@ function Buynow() {
                                     <div className="my-3">
                                         <div><span className="fw-bold ">Date :</span> 15 August 2025</div>
                                         <div className="my-1"><span className="fw-bold ">Time :</span> 08:00 PM to 11:30 PM</div>
-                                        <div><span className="fw-bold ">Venue :</span> Sampada Festivity, Near Antherm Circle, Kosmada Ring Road, Surat.</div>
+                                        <div><span className="fw-bold ">Venue :</span> Sampada Festivity, Near Anthems Circle, Kosmada Ring Road, Surat.</div>
                                     </div>
                                     <div className="w-100 h-100">
                                         <img src={require("../assets/images/Screenshot 2025-07-23 182105.png")} className="img-fluid object-fit-cover rounded w-100 h-100" alt="" />
