@@ -26,7 +26,7 @@ function Footer() {
                             📍<span className="venue-text fw-bold">Venue</span>
                         </h3>
                         <p className="venue-location text-center mt-4 fw-bold">
-                            Sampada Festivity, Kosmada Ring Road, Surat.
+                            Sampada Festivity, Near Antherm Circle, Kosmada Ring Road, Surat.
                         </p>
                     </div>
 
