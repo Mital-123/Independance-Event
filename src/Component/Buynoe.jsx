@@ -55,50 +55,49 @@ function Buynow() {
     };
 
     const savedata = () => {
-        setLoading(true)
-        // let newErrorMsg = {};
+        let newErrorMsg = {};
 
-        // if (!obj.name || obj.name.trim() === "") {
-        //     newErrorMsg.name = "Name is required!";
+        if (!obj.name || obj.name.trim() === "") {
+            newErrorMsg.name = "Name is required!";
+        }
+
+        // if (!obj.email || obj.email.trim() === "") {
+        //     newErrorMsg.email = "E-mail is required!";
         // }
 
-        // // if (!obj.email || obj.email.trim() === "") {
-        // //     newErrorMsg.email = "E-mail is required!";
-        // // }
+        if (!obj.phnumber || obj.phnumber.trim() === "") {
+            newErrorMsg.phnumber = "Phone Number is required!";
+        }
 
-        // if (!obj.phnumber || obj.phnumber.trim() === "") {
-        //     newErrorMsg.phnumber = "Phone Number is required!";
-        // }
+        if (!obj.area || obj.area === "Select Nearest Area" || obj.area === "") {
+            newErrorMsg.area = "Please select a valid area!";
+        }
 
-        // if (!obj.area || obj.area === "Select Nearest Area" || obj.area === "") {
-        //     newErrorMsg.area = "Please select a valid area!";
-        // }
+        if (!obj.pass || obj.pass < 1 || obj.pass > 5) {
+            newErrorMsg.pass = "Please select a valid number of passes!";
+        }
 
-        // if (!obj.pass || obj.pass < 1 || obj.pass > 5) {
-        //     newErrorMsg.pass = "Please select a valid number of passes!";
-        // }
+        seterrormsg(newErrorMsg);
+        if (Object.keys(newErrorMsg).length === 0) {
+            setLoading(true)
+            const cleanObj = { ...obj };
+            if (!cleanObj.email || cleanObj.email.trim() === "") {
+                delete cleanObj.email;
+            }
 
-        // seterrormsg(newErrorMsg);
-        // if (Object.keys(newErrorMsg).length === 0) {
-        //     setLoading(true)
-        //     const cleanObj = { ...obj };
-        //     if (!cleanObj.email || cleanObj.email.trim() === "") {
-        //         delete cleanObj.email;
-        //     }
-
-        //     axios.post("https://geeta-backend.vercel.app/", cleanObj)
-        //         .then((res) => {
-        //             if (res.data && res.data._id) {
-        //                 setSavedId(res.data._id);
-        //                 setobj({});
-        //                 setLoading(false)
-        //             }
-        //         })
-        //         .catch(() => {
-        //             alert("Phone number is already in use.");
-        //             setLoading(false)
-        //         })
-        // }
+            axios.post("https://geeta-backend.vercel.app/", cleanObj)
+                .then((res) => {
+                    if (res.data && res.data._id) {
+                        setSavedId(res.data._id);
+                        setobj({});
+                        setLoading(false)
+                    }
+                })
+                .catch(() => {
+                    alert("Phone number is already in use.");
+                    setLoading(false)
+                })
+        }
     };
 
     return (
