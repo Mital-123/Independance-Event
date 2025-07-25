@@ -69,6 +69,7 @@ button:hover::after {
 button:hover::before {
   width: 32%;
 }
+
 /* buttonhover end */
 /* Homecarousel start */
 .carobgimg {
@@ -78,19 +79,23 @@ button:hover::before {
   background-position: center center;
   box-shadow: inset 0px 0px 0px 1500px rgba(0, 0, 0, 0.785);
 }
+
 .homepage_image {
   height: auto !important;
 }
+
 @media screen and (min-width: 1200px) and (max-width: 1500px) {
   .homepage_image {
     height: 210px !important;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .homepage_image {
     height: 160px !important;
   }
 }
+
 /* .tricolor-text {
   background: linear-gradient(90deg, #ff6600 0%, white 50%, #138808 100%);
   -webkit-background-clip: text;
@@ -128,10 +133,12 @@ button:hover::before {
   background-position: center center;
   box-shadow: inset 0px 0px 0px 1500px rgba(0, 15, 29, 0.822);
 }
+
 .clientmain {
   background-color: var(--dark--);
   position: relative;
 }
+
 .client_bg {
   width: 80%;
   height: 380px;
@@ -139,6 +146,7 @@ button:hover::before {
   z-index: 1;
   position: relative;
 }
+
 .client_image {
   width: 90%;
   border: 8px groove white;
@@ -147,39 +155,49 @@ button:hover::before {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
   .client_bg,
   .client_image img {
     height: 370px;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
   .clientmain,
   .client_image img {
     width: 100% !important;
   }
+
   .client_bg,
   .client_image img {
     height: 370px;
   }
 }
+
 @media screen and (max-width: 576px) {
   .contact-service-area {
     margin: 0px;
   }
 }
+
 @media screen and (max-width: 450px) {
+
   .client_bg,
   .client_image img {
     height: 300px !important;
   }
+
   .client_image {
     margin-top: 80px !important;
   }
+
   .clientmain,
   .client_image img {
     width: 100% !important;
   }
 }
+
 /* about us end */
 
 /* projects start */
@@ -296,6 +314,7 @@ button:hover::before {
   color: #555555;
   line-height: 1.5;
 }
+
 /* projects end */
 
 /* ticketcard start */
@@ -307,6 +326,7 @@ button:hover::before {
   background-attachment: fixed;
   background-size: cover;
 }
+
 /* ticketcard end */
 
 @media (min-width: 992px) {
@@ -335,11 +355,13 @@ button:hover::before {
 }
 
 @media (max-width: 991px) {
+
   .TicketForm_bg::before,
   .TicketForm_bg::after {
     content: none;
   }
 }
+
 /* sponser start */
 .red-certificates-section {
   background-image: url("https://washstrip.vercel.app/static/media/whychooseus_enhanced.1fc073da4348ef597adf.png");
@@ -363,11 +385,9 @@ button:hover::before {
 .shape {
   position: absolute;
   border-radius: 50%;
-  background: linear-gradient(
-    45deg,
-    rgba(0, 56, 19, 0.1),
-    rgba(0, 56, 19, 0.1)
-  );
+  background: linear-gradient(45deg,
+      rgba(0, 56, 19, 0.1),
+      rgba(0, 56, 19, 0.1));
   animation: float 6s ease-in-out infinite;
 }
 
@@ -413,6 +433,7 @@ button:hover::before {
 }
 
 @keyframes float {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -453,6 +474,7 @@ button:hover::before {
 }
 
 @keyframes gradient-shift {
+
   0%,
   100% {
     background-position: 0% 50%;
@@ -478,8 +500,10 @@ button:hover::before {
 .certificate-item {
   width: 200px;
   max-width: 100%;
-  min-height: 130px; /* Set consistent height */
-  background: rgba(255, 255, 255, 1); /* Solid white background */
+  min-height: 130px;
+  /* Set consistent height */
+  background: rgba(255, 255, 255, 1);
+  /* Solid white background */
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 37, 37, 0.1);
   border-radius: 20px;
@@ -493,10 +517,12 @@ button:hover::before {
   align-items: center;
   justify-content: center;
 }
+
 .certificate-item img {
   max-height: 100px;
   object-fit: contain;
 }
+
 .certificate-item:hover {
   transform: translateY(-10px);
   background: rgba(255, 255, 255, 1);
@@ -510,11 +536,9 @@ button:hover::before {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 37, 37, 0.05) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 37, 37, 0.05) 0%,
+      transparent 70%);
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -523,6 +547,7 @@ button:hover::before {
 .certificate-item:hover .certificate-glow {
   opacity: 1;
 }
+
 /* photos start */
 .photos_bg {
   background-image: url("https://www.tharayilpower.com/static/media/hero-bg-abstract.54e8f6f3d5f65e12c49b.jpg");
@@ -531,6 +556,7 @@ button:hover::before {
   overflow: hidden;
   padding: 30px 0;
 }
+
 .containerimg {
   /* width: 90%; */
   display: grid;
@@ -624,6 +650,7 @@ button:hover::before {
 }
 
 @keyframes pulse {
+
   0%,
   100% {
     transform: scale(1);
@@ -673,6 +700,7 @@ button:hover::before {
     padding: 20px;
   }
 }
+
 /* sponser end */
 
 /* footer start */
@@ -689,6 +717,7 @@ button:hover::before {
     font-size: 15px !important;
   }
 }
+
 .venue-card {
   background: rgba(255, 255, 255, 0.354);
   padding: 20px 30px;
@@ -720,12 +749,14 @@ button:hover::before {
   background: linear-gradient(to right, #ff9933, #ffffff, #138808);
   box-shadow: 0 2px 10px #00000099;
 }
+
 .venue-location {
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-shadow: 1px 1px 5px #00000090;
 }
+
 /* footer end */
 
 /* EventHost start */
@@ -735,6 +766,7 @@ button:hover::before {
   background-size: cover;
   background-position: 100%;
 }
+
 /* .event-host-box {
   position: relative;
   padding: 10px 20px;
@@ -760,3 +792,26 @@ button:hover::before {
   mask-composite: exclude;
 } */
 /* EventHost end */
+
+
+
+
+
+
+
+/* loader */
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-animation {
+  animation: zoomInOut 3s ease-in-out infinite;
+}
