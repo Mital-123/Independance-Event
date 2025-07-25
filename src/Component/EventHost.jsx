@@ -1,10 +1,12 @@
 import React from 'react'
+import SuroBharat from './SuroBharat'
 
 function EventHost() {
     return (
         <>
-            <div className='eventhost_bg py-5'>
-                <div className='container'>
+            <div className='eventhost_bg pt-4 pb-4'>
+                <SuroBharat />
+                <div className='container pt-4'>
                     {/* <div className="d-flex justify-content-center">
                     <div className="event-host-box py-2 px-3">
                         <div className="fw-bold">⭐ Event Host ✨</div>
@@ -15,7 +17,7 @@ function EventHost() {
                         data-aos="fade-down"
                         data-aos-duration="1500"
                         data-aos-once="true"
-                        style={{color:"green"}}
+                        style={{ color: "green" }}
                     >
                         Anchoring the event with passion – Gopal Dave!
                     </h2>

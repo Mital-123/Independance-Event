@@ -1,3 +1,4 @@
+import EventOverview from "./EventOverview";
 import "./Hostsec.css";
 
 const Host = () => {
@@ -181,31 +182,7 @@ const Host = () => {
           ))}
         </div>
 
-        <div className="text-center header-section mt-4">
-          <div className="brdstart-wrapper d-flex justify-content-center align-items-center">
-            {/* <div className="brdstart gradient-text text-start text-capitalize">
-              Suro Mein Bharat – The Live In Concert
-            </div> */}
-            <div className="text-center mx-auto" style={{ maxWidth: "800px" }}>
-              <span className="gradient-text" style={{ marginLeft: "-100px" }}>"Suro Mein Bharat –
-                <div className="gradient-text ms-5 ps-5">The Live In Concert"</div>
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="row justify-content-center my-4">
-          <div className="col-12 col-lg-3">
-            <div className="h-100">
-              <div className='p-2'
-                style={{
-                  border: "5px groove green",
-                  boxShadow: "7px 7px 0px green",
-                }}>
-                <img src={require("../assets/images/Social Army poster july 2025_8_resize.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
+        <EventOverview />
 
       </div>
     </div>
