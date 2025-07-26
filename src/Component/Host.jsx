@@ -193,7 +193,7 @@ const Host = () => {
             "Insightful Moderator for Patriotic Perspectives"
           </h2>
           <div className="row justify-content-center mt-3">
-            <div className="col-10 col-lg-3">
+            <div className="col-12 col-lg-3">
               <div className="h-100">
                 <div className='p-2'
                   style={{
