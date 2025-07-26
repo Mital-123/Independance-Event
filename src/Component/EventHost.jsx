@@ -24,7 +24,7 @@ function EventHost() {
                     <div className='row justify-content-center mt-4'>
                         <div className='col-12 col-lg-4'>
                             <div style={{ border: "5px ridge black" }} className='p-2 rounded-3'>
-                                <img src={require("../assets/images/IMG-20250726-WA0005 (1) new.jpg")} className='img-fluid w-100 h-100' alt="" />
+                                <img src={require("../assets/images/Social Army poster july 2025_13 (1)_new.jpg")} className='img-fluid w-100 h-100' alt="" />
                             </div>
                         </div>
                     </div>

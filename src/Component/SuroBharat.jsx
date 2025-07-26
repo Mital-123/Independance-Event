@@ -22,7 +22,7 @@ function SuroBharat() {
                                         border: "5px groove green",
                                         boxShadow: "7px 7px 0px green",
                                     }}>
-                                    <img src={require("../assets/images/IMG-20250726-WA0007 (1) new.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
+                                    <img src={require("../assets/images/Social Army poster july 2025_8 (1)_new.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
                                 </div>
                             </div>
                         </div>

@@ -25,10 +25,10 @@ const Host = () => {
   // ]
 
   const imageList = [
-    require("../assets/images/IMG-20250726-WA0006 (1) new.jpg"),
-    require("../assets/images/IMG-20250726-WA0003 (1) new.jpg"),
-    require("../assets/images/IMG-20250726-WA0001 (1) new.jpg"),
-    require("../assets/images/IMG-20250726-WA0002 (1) new.jpg"),
+    require("../assets/images/Social Army poster july 2025_10 (1)_new.jpg"),
+    require("../assets/images/Social Army poster july 2025_9 (1)_new.jpg"),
+    require("../assets/images/Social Army poster july 2025_7 (1)_new.jpg"),
+    require("../assets/images/Social Army poster july 2025_11 (1)_new.jpg"),
     // require("../assets/images/Social Army poster july 2025_8.jpg"),
   ];
 
@@ -200,7 +200,7 @@ const Host = () => {
                     border: "5px groove green",
                     boxShadow: "7px 7px 0px green",
                   }}>
-                  <img src={require("../assets/images/IMG-20250726-WA0004 (1) new.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
+                  <img src={require("../assets/images/Social Army poster july 2025_16 (1)_new.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
                 </div>
               </div>
             </div>
