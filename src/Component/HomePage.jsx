@@ -33,9 +33,9 @@ function HomeCarousel() {
 
             <Host />
             <EventHost />
+            <TicketsCard />
             <Aboutus />
             <Photos />
-            <TicketsCard />
             <Sponser />
             <Footer />
 

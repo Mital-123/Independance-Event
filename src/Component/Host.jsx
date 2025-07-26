@@ -25,10 +25,10 @@ const Host = () => {
   // ]
 
   const imageList = [
-    require("../assets/images/Social Army poster july 2025_10___event poster_resize.jpg"),
-    require("../assets/images/Social Army poster july 2025_9_resize.jpg"),
-    require("../assets/images/Social Army poster july 2025_7_resize.jpg"),
-    require("../assets/images/Media (2)_resize.jpg"),
+    require("../assets/images/IMG-20250726-WA0006 (1) new.jpg"),
+    require("../assets/images/IMG-20250726-WA0003 (1) new.jpg"),
+    require("../assets/images/IMG-20250726-WA0001 (1) new.jpg"),
+    require("../assets/images/IMG-20250726-WA0002 (1) new.jpg"),
     // require("../assets/images/Social Army poster july 2025_8.jpg"),
   ];
 
@@ -180,6 +180,31 @@ const Host = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-4">
+          <h2
+            className="ftittle m-0 p-0 text-capitalize main-title text-center"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-once="true"
+            style={{ color: "green" }}
+          >
+            Insightful Moderator for Patriotic Perspectives
+          </h2>
+          <div className="row justify-content-center mt-3">
+            <div className="col-10 col-lg-3">
+              <div className="h-100">
+                <div className='p-2'
+                  style={{
+                    border: "5px groove green",
+                    boxShadow: "7px 7px 0px green",
+                  }}>
+                  <img src={require("../assets/images/IMG-20250726-WA0004 (1) new.jpg")} className="img-fluid w-100 h-100 object-fit-cover" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <EventOverview />

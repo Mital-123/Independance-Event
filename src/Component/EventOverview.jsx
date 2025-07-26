@@ -36,7 +36,7 @@ function EventOverview() {
 
     return (
         <>
-            <div className='mt-4'>
+            <div className='mt-5'>
                 <div className="header-content text-center">
                     <h2
                         className="ftittle m-0 p-0 text-capitalize main-title sponser_underline"

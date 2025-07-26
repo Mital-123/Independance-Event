@@ -16,7 +16,7 @@ const images = [
 const Photos = () => {
     return (
         <>
-            <div className="darkviolet py-5 photos_bg">
+            <div className="darkviolet pt-5 photos_bg">
                 <div className="container">
                     <h2
                         className="ftittle fw-medium m-0 p-0 text-capitalize text-center mb-4 main-title" style={{ color: "#5C3A21" }}

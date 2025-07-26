@@ -8,7 +8,7 @@ function Sponser() {
   }, []);
 
   return (
-    <section className={`red-certificates-section py-5 ${isVisible ? 'visible' : ''}`}>
+    <section className={`red-certificates-section pb-4 ${isVisible ? 'visible' : ''}`}>
       {/* Animated Background Elements */}
       <div className="floating-shapes">
         <div className="shape shape-1"></div>
