@@ -212,10 +212,10 @@ function Buynow() {
                                                 <div className='text-danger w-75 ms-auto'>{errormsg.pass}</div>
                                             </div>
 
-                                            <div className="text-dark fw-bold mt-3" style={{ fontSize: "12px" }}>
+                                            <div className="text-dark fw-bold mt-3" style={{ fontSize: "10px" }}>
                                                 નોંધ - રજીસ્ટ્રેશન કર્યા પછી પાસ જે તે સેંટર પર આવશે એટલે કોલ કરી જાણકારી આપવામાં આવશે, ફિઝિકલ પાસ લેવો ફરજીયાત છે.
                                             </div>
-                                            <div className='fw-bold mt-2' style={{ fontSize: "12px" }}>નોંધ - જે પણ રાશિ એકત્રિત થશે, તે સંપૂર્ણ રીતે શહીદ પરિવારને સન્માનરૂપે અર્પણ કરવામાં આવશે.</div>
+                                            <div className='fw-bold mt-2' style={{ fontSize: "10px" }}>નોંધ - ટોકન રાશિ આપવી ફરજિયાત નથી. આપની રાશિ શહીદ પરિવારના સન્માનમાં રાષ્ટ્રીય ભાવનાથી અર્પિત થશે.</div>
 
                                             <button
                                                 className="mt-3 buttons btns w-100 btn text-white"

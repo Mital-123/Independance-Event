@@ -29,7 +29,7 @@ function TicketsCard() {
                                         <button className='buttons w-100 btn ' type="button" style={{ fontFamily: "Sora, Sans-serif", fontWeight: 700 }}><span className='fs-5'><LuPointer /></span> Register Now</button>
                                     </Link>
                                 </div>
-                                <div className='mt-3 fw-bold text-center' style={{ fontSize: "12px" }}>નોંધ - જે પણ રાશિ એકત્રિત થશે, તે સંપૂર્ણ રીતે શહીદ પરિવારને સન્માનરૂપે અર્પણ કરવામાં આવશે.</div>
+                                <div className='mt-3 fw-bold text-center' style={{ fontSize: "10px" }}>નોંધ - ટોકન રાશિ આપવી ફરજિયાત નથી. આપની રાશિ શહીદ પરિવારના સન્માનમાં રાષ્ટ્રીય ભાવનાથી અર્પિત થશે.</div>
                             </div>
                         </div>
                     </div>
