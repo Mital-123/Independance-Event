@@ -190,7 +190,7 @@ const Host = () => {
             data-aos-once="true"
             style={{ color: "green" }}
           >
-            Insightful Moderator for Patriotic Perspectives
+            "Insightful Moderator for Patriotic Perspectives"
           </h2>
           <div className="row justify-content-center mt-3">
             <div className="col-10 col-lg-3">
