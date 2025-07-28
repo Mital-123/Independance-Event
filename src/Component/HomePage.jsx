@@ -31,9 +31,9 @@ function HomeCarousel() {
                 </div>
             </div>
 
+            <TicketsCard />
             <Host />
             <EventHost />
-            <TicketsCard />
             <Aboutus />
             <Photos />
             <Sponser />
